@@ -1,8 +1,10 @@
-const studentID = 1234
-var studentEmail = 'hello@1234'
-let studentPassword = 'deiofes'
+studentID = 1234
+studentEmail = "hello@1234"
+studentPassword = "deiofes"
 
 
 // studentPassword= 'dfgesf'   not a problem
 // studentID = 3211  it is wrong
-studentAddress = 'delhi'
+studentAddress = "delhi"
+
+console.table([studentID, studentEmail, studentPassword, studentAddress])
