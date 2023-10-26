@@ -7,3 +7,10 @@
 // Non-Primitive(Reference)>>>>
 
 // Arrays,Objects,Functions
+
+
+
+// memory
+
+// primitive(stack) it makes a copy and changes will happen in copy
+// non-primitive(Heap) 
