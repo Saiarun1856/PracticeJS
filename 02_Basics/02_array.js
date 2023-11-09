@@ -1,6 +1,7 @@
 const marver_heros = ["thor","ironman", "spider-man"]
 const dc_heros = ["Batman","flash","superman"]
 
+
 // marver_heros.push(dc_heros)
 // console.log(marver_heros)
 
@@ -14,8 +15,8 @@ const dc_heros = ["Batman","flash","superman"]
 // console.log(all_new_heros);
 
 
-// const all_full_array = [123,"dafdwaf",2,3,4,5,6,[2,3,4,[34,53]]]
-// console.log(all_full_array.flat(Infinity))
+const all_full_array = [123,"dafdwaf",2,3,4,5,6,[2,3,4,[34,53]]]
+console.log(all_full_array.flat(Infinity))
 
 
 console.log(Array.isArray(marver_heros))
