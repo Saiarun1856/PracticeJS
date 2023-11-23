@@ -1,4 +1,4 @@
-// immediately invoked function expression (IIFE) -- to avoid global scope pollution such as declarations,variables etc we use iife
+//   (IIFE) -- to avoid global scope pollution such as declarations,variables etc we use iife
 
 
 (function values(){
