@@ -14,19 +14,19 @@ hello() //execution
 //      console.log(x+y)
 // }
 // addTwoNumbers(3,4) //arguments
-function addTwoNumbers(x,y){ //parameters
-     let result = x+y
-     return result
-}
-const result = addTwoNumbers(3,4) //arguments
-console.log("result",result)
+// function addTwoNumbers(x,y){ //parameters
+//      let result = x+y
+//      return result
+// }
+// const result = addTwoNumbers(3,4) //arguments
+// console.log("result",result)
 
 
 function loginUserMessage(username){
-    if(username === undefined ){
+    if(username === 10 ){
         console.log("cannot accessible")
         return
     }
     return `${username} logged in`
 }
-console.log(loginUserMessage())
+console.log(loginUserMessage(9))

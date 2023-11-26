@@ -8,3 +8,5 @@ studentPassword = "deiofes"
 studentAddress = "delhi"
 
 console.table([studentID, studentEmail, studentPassword, studentAddress])
+
+

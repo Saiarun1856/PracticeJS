@@ -8,6 +8,6 @@
 // undefined = 
 // symbol => unique
 
-
-
+const value  = Symbol("s")
+console.log(typeof(value))
 

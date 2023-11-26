@@ -26,11 +26,11 @@ const user = {
 
 // }
 // chai()
-const chai =  ()=>{
-    let userName ="arun"
-    console.log(this.userName) 
+// const chai =  ()=>{
+//     let userName ="arun"
+//     console.log(this.userName) 
 
-}
+// }
 // chai()
 
 
@@ -38,10 +38,9 @@ const chai =  ()=>{
 
 // ()=>{} //simple representation of arrow function
  
-// const value =(num1,num2)=>{
-//     return num1+num2
-// }
-// console.log(value(2,3));
+const value =(num1,num2)=> ({name:"Arun"})
+
+console.log(value(2,3));
 
 // implicit return  - where we can write arrow function where we dont use parenthesis and write in single line
 
@@ -49,7 +48,7 @@ const chai =  ()=>{
 
 // to use objects
 
-const value = (num1,num2)=> ({userName:"Arun"})
-console.log(value(2,3));
+// const value = (num1,num2)=> ({userName:"Arun"})
+// console.log(value(2,3));
 
   

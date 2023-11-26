@@ -1,6 +1,6 @@
-let score = "33"
+let score = 0
 
-let value = Number(score)
+let value = Boolean(score)
 console.log(value);
 
 

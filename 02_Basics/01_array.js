@@ -14,15 +14,16 @@ let myarr = [1,2,3,4,5,6]
 // let newarr = myarr.join()
 // console.log(typeof newarr )
 // console.log(newarr);
+// console.log(newarr[1]);
 
 
 // let newarr = myarr.slice(1,3)
 // console.log("A",myarr)
 // console.log("B",newarr)
 
-// const newsarr = myarr.splice(1,3)
-// console.log("D",myarr)
-// console.log("C", newsarr)
+const newsarr = myarr.splice(1,3)
+console.log("D",myarr)
+console.log("C", newsarr)
 
 
 

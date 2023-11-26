@@ -1,9 +1,9 @@
 //   (IIFE) -- to avoid global scope pollution such as declarations,variables etc we use iife
 
 
-(function values(){
+(function values(num1){
     console.log("connected DB")
-})(); // this get error coz we also need to wrap up function in curly braces
+})(2); // this get error coz we also need to wrap up function in curly braces
 
 // to use another iife we need to keep semicolon to break previous context
 

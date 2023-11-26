@@ -14,9 +14,10 @@ const objects = {
 }
 
 console.log(objects)
+// console.log(typeof(objects.mySym))
 // Object.freeze(objects)
 objects.age = 22
-
+console.log(objects)
 /**
  * dsfdgfhhgfdss
  * @params fdfj, djh
